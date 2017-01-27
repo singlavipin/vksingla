@@ -5,6 +5,25 @@
 	<artifactId>test-webservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>com.vksingla.licensing</groupId>
+			<artifactId>license-client</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/license-client-1.0.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vksingla.licensing</groupId>
+			<artifactId>license-server</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/license-server-1.0.0.jar</systemPath>
+		</dependency>
+
+
+	</dependencies>
 
 	<build>
 		<plugins>
